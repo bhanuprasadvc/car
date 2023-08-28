@@ -1,0 +1,25 @@
+/* frontend/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
